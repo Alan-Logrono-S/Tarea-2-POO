@@ -25,7 +25,6 @@ class Empleado{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        // Jugadores
 
         System.out.print("Nombre: ");
         String n1 = sc.nextLine();
@@ -39,7 +38,6 @@ class Empleado{
 
         Empleado j1 = new Empleado(n1, p1, e1, num1);
 
-        // Jugador 2
         System.out.print("Nombre: ");
         String n2 = sc.nextLine();
         System.out.print("Cargo: ");
@@ -52,7 +50,6 @@ class Empleado{
 
         Empleado j2 = new Empleado(n2, p2, e2, num2);
 
-        // Jugador 3
         System.out.print("Nombre: ");
         String n3 = sc.nextLine();
         System.out.print("Cargo: ");
